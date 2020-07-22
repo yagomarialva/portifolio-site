@@ -43,11 +43,10 @@ header .header-black {
 #banner {
     width: 100%;
     height: 728px;
-    position: absolute;
-    text-align: center;
-    background: url("../img/banner.jpg") no-repeat;
-    background-position: 0px -100px;
-    top: -74px;
+    position: relative;
+    background: url("../img/banner.jpg");
+    background-position: -93px -114px;
+    top: -110px;
 }
 
 #banner h1 {
@@ -71,13 +70,48 @@ header .header-black {
 
 #lastest-projects {
     position: relative;
-    top: 600px;
-    left: 450px;
-    text-align: center;
+    top: -90px;
 }
 
 #lastest-projects h2 {
     color: #5E2799;
-    font-family: 'OpenSans-Regular';
+    margin-left: 400px;
+    font-family: 'OpenSans-Light';
     font-size: 48px;
+}
+
+#lastest-projects hr {
+    border: #FDE192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#lastest-projects .thumbnails {
+    margin-top: 20px;
+}
+
+#lastest-projects h3 {
+    font-size: 18px;
+    color: #5E299A;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#lastest-projects time {
+    color: #a7a7a7;
+    font-size: 18px;
+    font-family: 'OpenSans';
+}
+
+#lastest-projects hr {
+    border: #FDE192 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#estatisticas {
+    background-color: #5E299A;
+    width: 100%;
+    height: 150px;
 }
