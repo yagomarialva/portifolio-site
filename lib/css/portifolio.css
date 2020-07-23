@@ -44,7 +44,7 @@ header .header-black {
     width: 100%;
     height: 728px;
     position: relative;
-    background: url("../img/banner.jpg");
+    background: url("../img/banner.jpg") no-repeat;
     background-position: -93px -114px;
     top: -110px;
 }
@@ -75,15 +75,17 @@ header .header-black {
 
 #lastest-projects h2 {
     color: #5E2799;
-    margin-left: 400px;
+    margin-left: 461px;
     font-family: 'OpenSans-Light';
     font-size: 48px;
 }
 
 #lastest-projects hr {
     border: #FDE192 solid 2px;
+    text-align: center;
     width: 200px;
-    margin: 0 auto;
+    margin-left: 500px;
+    margin-top: 2px;
 }
 
 #lastest-projects .thumbnails {
@@ -104,14 +106,101 @@ header .header-black {
     font-family: 'OpenSans';
 }
 
-#lastest-projects hr {
-    border: #FDE192 2px;
-    width: 200px;
-    margin: 0 auto;
-}
-
 #estatisticas {
     background-color: #5E299A;
     width: 100%;
-    height: 150px;
+    height: 200px;
+    text-align: center;
+}
+
+#estatisticas p {
+    color: #FDE192;
+    text-transform: uppercase;
+    font-family: 'OpenSans';
+    font-size: 64px;
+    margin-top: 33px;
+}
+
+#estatisticas p small {
+    color: #ffffff;
+    font-size: 24px;
+    display: block;
+}
+
+#github-and-linkedin {
+    text-align: center;
+    margin-top: auto;
+}
+
+#github-and-linkedin h2 {
+    color: #5E2799;
+    margin-top: 40px;
+    margin-left: 400px;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    margin-bottom: 33px;
+}
+
+#github-and-linkedin hr {
+    border: #FDE192 solid 2px;
+    text-align: center;
+    width: 200px;
+    margin-left: 486px;
+    margin-top: -25px;
+}
+
+#github-and-linkedin p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #656565;
+}
+
+.btn-success {
+    margin-left: 490px;
+    margin-top: -25px;
+}
+
+.btn-dark {
+    margin-left: 70px;
+    margin-top: -25px;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer .row p {
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+footer .row-cinza-claro {
+    margin-top: 100px;
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #11171D;
+    border-top: #242d37 1px;
+}
+
+footer .pull-left {
+    color: #6666;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-weight: 16px;
+}
+
+footer .text-roxo {
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-weight: 14px;
+}
+
+footer .col-red {
+    border: red 2px solid;
+    height: 200px;
 }
