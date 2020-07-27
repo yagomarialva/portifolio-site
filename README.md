@@ -15,7 +15,6 @@ Por ser um projeto que não utiliza as ferramentas mais complexas, como angular,
 O site foi dividido em três partes numa única página, o header, o body e o footer.
 O header é onde fica a barra de navegação, conforme imagem abaixo: 
 ![](lib/img/navbar.png)
-Aqui é onde ficam os links para conhecer melhor sobre os projetos no github assim como o perfil para contato.
 
 O body é onde ficam as principais informações sobre os mais recentes projetos.
 ![](lib/img/body.png)
@@ -42,7 +41,7 @@ Yago Marialva Bentes – yago.marialva@gmail.com
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/yagomarialva/portifolio-site/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
