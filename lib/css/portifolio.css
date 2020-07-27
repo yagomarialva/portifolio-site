@@ -45,7 +45,7 @@ header .header-black {
     height: 728px;
     position: relative;
     background: url("../img/banner.jpg") no-repeat;
-    background-position: -93px -114px;
+    background-position: center;
     top: -110px;
 }
 
